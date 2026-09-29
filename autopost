@@ -1,6 +1,7 @@
+import os
 import requests
 
-WEBHOOK_URL = "ISI_WEBHOOK_DI_GITHUB_SECRET"
+WEBHOOK_URL = os.environ["DISCORD_WEBHOOK_1"]
 
 MESSAGE = "Ini adalah pesan auto-post pertama."
 
